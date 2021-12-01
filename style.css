@@ -243,6 +243,7 @@ a {
     color: grey;
 }
 
+
 /* .contact_p {
     padding: 0rem 1.8rem 10rem 1.8rem;
     font-size: 1.3rem;
@@ -551,7 +552,7 @@ Form Image Photo by <a href="https://unsplash.com/@duonguyen?utm_source=unsplash
         align-self: center;
     }
     .card_paragraph {
-        padding: 0rem;
+        padding: 0px 20px 0px 20px;
         font-size: 1.4rem;
         color: grey;
     }
@@ -596,5 +597,74 @@ Form Image Photo by <a href="https://unsplash.com/@duonguyen?utm_source=unsplash
     }
     .wrapper {
         width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+    .flex_cards_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        text-align: center;
+        /* background-color: rgb(124, 136, 116); */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto; */
+        border-bottom: 1px solid white;
+    }
+    .card_bottom_div {
+        /* grid-column: 1/7; */
+        align-self: center;
+    }
+    .card_paragraph {
+        padding: 0px 30px 0px 30px;
+        font-size: 1.4rem;
+        color: grey;
+    }
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.0rem;
+    }
+    .card_image {
+        /* grid-column: 1/7; */
+        width: 90%;
+        max-height: 400px;
+        align-self: center;
+    }
+    .img_pad {
+        padding: 2px;
+        /* width: 32px;
+        height: 32px; */
+    }
+    .website_image {
+        width: 90%;
+        box-shadow: 2px 4px 4px 2px rgb(80, 89, 99);
+        margin: 20px 0px 40px 0px;
+    }
+    .label_image {
+        width: 80%;
+        /* height:30%;  */
+        box-shadow: 4px 8px 8px 4px rgb(128, 129, 129);
+        margin: 20px 0px 40px 0px;
+    }
+    /* .contact_container {
+        width: 100%;
+    }
+    .contact_wrap {
+        width: 100%;
+    }
+    .form_img {
+        display: none;
+        width: 0%;
+    } */
+    .lbl_input_group2 {
+        /* padding-top: 20px; */
+    }
+    .wrapper {
+        width: 90%;
     }
 }
