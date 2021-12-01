@@ -262,9 +262,9 @@ a {
 }
 
 h3 {
-    margin-bottom: 2.0rem;
-    color: gray;
-    font-size: 2.0rem;
+    margin: 1.0rem 0rem 2.0rem 0rem;
+    color: tomato;
+    font-size: 1.8rem;
 }
 
 .card_icon {
